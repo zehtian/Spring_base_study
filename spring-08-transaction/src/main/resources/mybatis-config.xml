@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<!--configuration核心配置文件-->
+<configuration>
+
+    <!--其实可以完全省略了，但通常在mybatis配置文件中留下 别名typeAliases和设置settings-->
+    <typeAliases>
+        <package name="pojo"/>
+    </typeAliases>
+
+
+</configuration>
